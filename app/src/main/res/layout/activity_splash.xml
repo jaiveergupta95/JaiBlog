@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/splash_imgview"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/front_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jai Blog"
+        android:layout_marginTop="-25dp"
+        android:textSize="50sp"
+        android:textStyle="bold|normal|italic"
+        android:textColor="@color/icons"
+        android:layout_below="@+id/splash_imgview"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
